@@ -1,0 +1,3 @@
+Number of users:who|wc -l
+Number of users:1
+Number of files :ls|wc -l

@@ -1,0 +1,7 @@
+/home/170905156/Desktop/OS/lab1_23_07/two
+Tue Jul 23 21:28:55 IST 2019
+Adad
+a.txt
+d.txt
+second.txt
+sort.py
