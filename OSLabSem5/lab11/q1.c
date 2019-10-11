@@ -176,7 +176,10 @@ void secChance(int frameArr[], int pageArr[], int numOfFrames, int numOfPages)
 			for (int j = 0; j < numOfFrames; ++j)
 			{
 				if(secondChanceArr[(firstIn+j)%numOfFrames]==1)
+				{	
 					secondChanceArr[(firstIn+j)%numOfFrames]=0;
+					continue;
+				}
 				if(secondChanceArr[(firstIn+j)%numOfFrames]==0)
 				{
 					replceIndex = (firstIn+j)%numOfFrames;
